@@ -1,0 +1,115 @@
+body{
+    background: url('../Img/b6b90237b3ebd1e462a5d11dbc5c4dae.750.425.jpeg') no-repeat;
+    background-size: 100%;
+}
+#Exit{
+    position: absolute;
+    left: 300px;
+    top:250px;
+    background-color: #f403fc;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 5px solid #f403fc;
+    cursor: pointer;
+}
+#Exit:hover,#Play:hover{
+    position: absolute;
+    color: #fc034e;
+    font-size: 30px;
+    cursor: cell;
+    transition: 5s all ease;
+}
+#Play{
+    position: absolute;
+    left: 300px;
+    top:100px;
+    background-color: #f403fc;
+    border-radius: 5px;
+    border: 5px solid #f403fc;
+    cursor: pointer;
+}
+#Play a{
+    color: #ffffff;
+    text-decoration: none;
+}
+h1{
+    font-family: "Open Sans",sans-serif;
+    color: #fc034e;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#difficult{
+    background: url('../Img/Jeff.jpeg') no-repeat;
+    background-size: 100%;
+}
+#easy{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 300px;
+    top: 100px;
+    font-size: 40px;
+    background: url('../Img/10b8f7b7e3206cfb94c5f75e7fd84384.jpg') no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    cursor: move;
+    font-family: 'Roboto';
+}
+#medium{
+    position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 300px;
+    top: 400px;
+    font-size: 40px;
+    color: #ffffff;
+    background: url('../Img/171eae4905c4e74caa8fa0cec1d0a2c0.jpg') no-repeat;
+    background-size: 100%;
+    cursor: move;
+    font-family: 'Roboto';
+}
+#Hard{
+    position: absolute;
+    width: 190px;
+    height: 90px;
+    left: 300px;
+    top: 700px;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: move;
+    background: url('../Img/Безназвания2.jpeg') no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto';
+}
+#eas{
+    background-image: none;
+}
+#crossandtoeseasy{
+    width: 150px;
+    height: 150px;
+    background-color: #a832a2;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.elementseasy{
+    width: 50px;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid silver;
+}
+#winner,#valwinner{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#exit{
+    width: 100px;
+    height: 50px;
+    background-color: #fcba03;
+    margin-left: 200px;
+    margin-top:100px;
+    border:5px solid #fcba03;
+}
